@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.dagger.activitygraphs;
+package com.example.dagger1.activitygraphs;
 
 import android.content.Context;
-import com.example.dagger.activitygraphs.ui.ActivityTitleController;
-import com.example.dagger.activitygraphs.ui.HomeActivity;
-import com.example.dagger.activitygraphs.ui.HomeFragment;
-import dagger.Module;
-import dagger.Provides;
+import com.example.dagger1.activitygraphs.ui.ActivityTitleController;
+import com.example.dagger1.activitygraphs.ui.HomeActivity;
+import com.example.dagger1.activitygraphs.ui.HomeFragment;
+import dagger1.Module;
+import dagger1.Provides;
 import javax.inject.Singleton;
 
 /**

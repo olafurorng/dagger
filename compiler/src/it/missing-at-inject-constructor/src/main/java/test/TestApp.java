@@ -16,9 +16,9 @@
  */
 package test;
 
-import dagger.Module;
+import dagger1.Module;
 
-import dagger.ObjectGraph;
+import dagger1.ObjectGraph;
 import javax.inject.Inject;
 
 class TestApp implements Runnable {

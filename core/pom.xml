@@ -68,7 +68,7 @@
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
         <configuration>
-          <excludePackageNames>dagger.internal:dagger.internal.*</excludePackageNames>
+          <excludePackageNames>dagger1.internal:dagger1.internal.*</excludePackageNames>
         </configuration>
       </plugin>
       <plugin>

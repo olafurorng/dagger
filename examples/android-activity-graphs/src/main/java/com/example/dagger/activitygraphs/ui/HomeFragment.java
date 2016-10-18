@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.dagger.activitygraphs.ui;
+package com.example.dagger1.activitygraphs.ui;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import com.example.dagger.activitygraphs.DemoBaseFragment;
+import com.example.dagger1.activitygraphs.DemoBaseFragment;
 import javax.inject.Inject;
 
 import static android.view.Gravity.CENTER;

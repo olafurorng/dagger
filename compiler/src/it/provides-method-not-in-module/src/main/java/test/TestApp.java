@@ -16,7 +16,7 @@
  */
 package test;
 
-import dagger.Provides;
+import dagger1.Provides;
 
 class TestApp {
 

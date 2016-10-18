@@ -16,17 +16,17 @@
  */
 package test;
 
-import dagger.ObjectGraph;
-import dagger.Module;
-import dagger.Provides;
+import dagger1.ObjectGraph;
+import dagger1.Module;
+import dagger1.Provides;
 import java.util.HashSet;
 import java.util.Set;
 import javax.inject.Inject;
 import javax.inject.Provider;
 import javax.inject.Singleton;
 
-import static dagger.Provides.Type.SET;
-import static dagger.Provides.Type.SET_VALUES;
+import static dagger1.Provides.Type.SET;
+import static dagger1.Provides.Type.SET_VALUES;
 
 /**
  * Contributions to {@code SET_VALUES} binding do not affect Set of providers.

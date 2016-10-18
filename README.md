@@ -15,12 +15,12 @@ with the upgrade.
 Download Dagger 1
 -----------------
 
-You will need to include the `dagger-${dagger.version}.jar` in your
+You will need to include the `dagger-${dagger1.version}.jar` in your
 application's runtime.  In order to activate code generation you will need to
-include `dagger-compiler-${dagger.version}.jar` in your build at compile time.
+include `dagger-compiler-${dagger1.version}.jar` in your build at compile time.
 
 In a Maven project, one would include the runtime in the dependencies section
-of your `pom.xml` (replacing `${dagger.version}` with the appropriate current
+of your `pom.xml` (replacing `${dagger1.version}` with the appropriate current
 release), and the `dagger-compiler` artifact as an "optional" or "provided"
 dependency:
 
@@ -29,12 +29,12 @@ dependency:
   <dependency>
     <groupId>com.squareup.dagger</groupId>
     <artifactId>dagger</artifactId>
-    <version>${dagger.version}</version>
+    <version>${dagger1.version}</version>
   </dependency>
   <dependency>
     <groupId>com.squareup.dagger</groupId>
     <artifactId>dagger-compiler</artifactId>
-    <version>${dagger.version}</version>
+    <version>${dagger1.version}</version>
     <optional>true</optional>
   </dependency>
 </dependencies>

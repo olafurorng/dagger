@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package dagger.internal;
+package dagger1.internal;
 
-import dagger.Lazy;
-import dagger.Module;
-import dagger.Provides;
+import dagger1.Lazy;
+import dagger1.Module;
+import dagger1.Provides;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

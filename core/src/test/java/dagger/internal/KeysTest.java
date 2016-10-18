@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package dagger.internal;
+package dagger1.internal;
 
-import dagger.Lazy;
-import dagger.MembersInjector;
-import dagger.Provides;
+import dagger1.Lazy;
+import dagger1.MembersInjector;
+import dagger1.Provides;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.List;
@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
 import static com.google.common.truth.Truth.assertThat;
-import static dagger.Provides.Type.SET;
+import static dagger1.Provides.Type.SET;
 
 @RunWith(JUnit4.class)
 public final class KeysTest {

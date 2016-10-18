@@ -15,7 +15,7 @@
  */
 package dagger;
 
-import dagger.internal.TestingLoader;
+import dagger1.internal.TestingLoader;
 import javax.inject.Inject;
 import javax.inject.Provider;
 import org.junit.Test;
@@ -187,7 +187,7 @@ public final class ModuleTest {
       ObjectGraph.createWith(new TestingLoader(), new ChildModuleMissingModuleAnnotation());
     } catch (IllegalArgumentException e) {
       assertThat(e.getMessage())
-          .contains("No @Module on dagger.ModuleTest$ModuleMissingModuleAnnotation");
+          .contains("No @Module on dagger1.ModuleTest$ModuleMissingModuleAnnotation");
     }
   }
 

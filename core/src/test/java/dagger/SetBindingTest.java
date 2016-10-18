@@ -16,7 +16,7 @@
  */
 package dagger;
 
-import dagger.internal.TestingLoader;
+import dagger1.internal.TestingLoader;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.Arrays;
@@ -32,8 +32,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
 import static com.google.common.truth.Truth.assertThat;
-import static dagger.Provides.Type.SET;
-import static dagger.Provides.Type.SET_VALUES;
+import static dagger1.Provides.Type.SET;
+import static dagger1.Provides.Type.SET_VALUES;
 import static java.util.Collections.emptySet;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

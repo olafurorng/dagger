@@ -6,7 +6,7 @@
 
 set -ex
 
-REPO="git@github.com:square/dagger.git"
+REPO="git@github.com:square/dagger1.git"
 DIR=temp-dagger-clone
 
 # Delete any existing temporary website clone

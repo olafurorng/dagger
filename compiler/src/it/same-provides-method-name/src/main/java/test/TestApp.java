@@ -16,10 +16,10 @@
  */
 package test;
 
-import dagger.Module;
+import dagger1.Module;
 
-import dagger.ObjectGraph;
-import dagger.Provides;
+import dagger1.ObjectGraph;
+import dagger1.Provides;
 
 import javax.inject.Inject;
 import java.lang.Override;

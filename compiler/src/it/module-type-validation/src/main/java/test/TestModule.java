@@ -15,7 +15,7 @@
  */
 package test;
 
-import dagger.Module;
+import dagger1.Module;
 
 @Module
 class ThreadModule extends Thread {

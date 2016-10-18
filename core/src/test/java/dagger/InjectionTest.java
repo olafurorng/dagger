@@ -16,7 +16,7 @@
  */
 package dagger;
 
-import dagger.internal.TestingLoader;
+import dagger1.internal.TestingLoader;
 import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.Arrays;

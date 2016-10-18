@@ -16,7 +16,7 @@
  */
 package dagger;
 
-import dagger.internal.TestingLoader;
+import dagger1.internal.TestingLoader;
 import javax.inject.Inject;
 import org.junit.Test;
 import org.junit.runner.RunWith;

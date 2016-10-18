@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.dagger.simple;
+package com.example.dagger1.simple;
 
-import com.example.dagger.simple.ui.HomeActivity;
-import dagger.Module;
+import com.example.dagger1.simple.ui.HomeActivity;
+import dagger1.Module;
 
 @Module(
     injects = HomeActivity.class,

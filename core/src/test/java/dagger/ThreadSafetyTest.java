@@ -16,7 +16,7 @@
  */
 package dagger;
 
-import dagger.internal.TestingLoader;
+import dagger1.internal.TestingLoader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;

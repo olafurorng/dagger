@@ -1,4 +1,4 @@
-dagger.internal.codegen.ValidationProcessor
-dagger.internal.codegen.InjectAdapterProcessor
-dagger.internal.codegen.ModuleAdapterProcessor
-dagger.internal.codegen.GraphAnalysisProcessor
+dagger1.internal.codegen.ValidationProcessor
+dagger1.internal.codegen.InjectAdapterProcessor
+dagger1.internal.codegen.ModuleAdapterProcessor
+dagger1.internal.codegen.GraphAnalysisProcessor

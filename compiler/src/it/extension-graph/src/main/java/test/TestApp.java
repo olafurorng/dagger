@@ -16,8 +16,8 @@
  */
 package test;
 
-import dagger.ObjectGraph;
-import dagger.Module;
+import dagger1.ObjectGraph;
+import dagger1.Module;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 

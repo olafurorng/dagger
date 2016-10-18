@@ -93,10 +93,10 @@
             <goals><goal>testCompile</goal></goals>
             <configuration>
               <annotationProcessors>
-                <annotationProcessor>dagger.internal.codegen.ValidationProcessor</annotationProcessor>
-                <annotationProcessor>dagger.internal.codegen.InjectAdapterProcessor</annotationProcessor>
-                <annotationProcessor>dagger.internal.codegen.ModuleAdapterProcessor</annotationProcessor>
-                <annotationProcessor>dagger.internal.codegen.GraphAnalysisProcessor</annotationProcessor>
+                <annotationProcessor>dagger1.internal.codegen.ValidationProcessor</annotationProcessor>
+                <annotationProcessor>dagger1.internal.codegen.InjectAdapterProcessor</annotationProcessor>
+                <annotationProcessor>dagger1.internal.codegen.ModuleAdapterProcessor</annotationProcessor>
+                <annotationProcessor>dagger1.internal.codegen.GraphAnalysisProcessor</annotationProcessor>
               </annotationProcessors>
             </configuration>
           </execution>
@@ -115,8 +115,8 @@
           <localRepositoryPath>${project.build.directory}/local-repo</localRepositoryPath>
           <postBuildHookScript>verify</postBuildHookScript>
           <filterProperties>
-            <dagger.version>${project.version}</dagger.version>
-            <dagger.groupId>${project.groupId}</dagger.groupId>
+            <dagger1.version>${project.version}</dagger1.version>
+            <dagger1.groupId>${project.groupId}</dagger1.groupId>
           </filterProperties>
         </configuration>
         <executions>

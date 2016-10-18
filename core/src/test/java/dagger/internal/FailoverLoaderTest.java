@@ -14,11 +14,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package dagger.internal;
+package dagger1.internal;
 
-import dagger.Module;
-import dagger.ObjectGraph;
-import dagger.Provides;
+import dagger1.Module;
+import dagger1.ObjectGraph;
+import dagger1.Provides;
 import javax.inject.Inject;
 import org.junit.Test;
 import org.junit.runner.RunWith;

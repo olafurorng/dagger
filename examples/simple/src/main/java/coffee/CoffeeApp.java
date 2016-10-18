@@ -2,7 +2,7 @@ package coffee;
 
 import javax.inject.Inject;
 
-import dagger.ObjectGraph;
+import dagger1.ObjectGraph;
 
 public class CoffeeApp implements Runnable {
   @Inject CoffeeMaker coffeeMaker;

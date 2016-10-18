@@ -1,7 +1,7 @@
 package coffee;
 
-import dagger.Module;
-import dagger.Provides;
+import dagger1.Module;
+import dagger1.Provides;
 
 @Module(complete = false, library = true)
 class PumpModule {

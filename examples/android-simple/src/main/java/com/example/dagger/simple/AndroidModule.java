@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.dagger.simple;
+package com.example.dagger1.simple;
 
 import android.content.Context;
 import android.location.LocationManager;
-import dagger.Module;
-import dagger.Provides;
+import dagger1.Module;
+import dagger1.Provides;
 import javax.inject.Singleton;
 
 import static android.content.Context.LOCATION_SERVICE;

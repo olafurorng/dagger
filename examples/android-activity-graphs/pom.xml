@@ -18,7 +18,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.squareup.dagger.example</groupId>
+    <groupId>com.squareup.dagger1.example</groupId>
     <artifactId>dagger-example-parent</artifactId>
     <version>1.2.6-SNAPSHOT</version>
   </parent>

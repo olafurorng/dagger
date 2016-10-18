@@ -16,8 +16,8 @@
  */
 package test;
 
-import dagger.Module;
-import dagger.Provides;
+import dagger1.Module;
+import dagger1.Provides;
 import java.lang.annotation.Retention;
 import javax.inject.Inject;
 import javax.inject.Singleton;

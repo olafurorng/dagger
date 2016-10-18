@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.dagger.activitygraphs.ui;
+package com.example.dagger1.activitygraphs.ui;
 
 import android.location.LocationManager;
 import android.os.Bundle;
-import com.example.dagger.activitygraphs.DemoBaseActivity;
+import com.example.dagger1.activitygraphs.DemoBaseActivity;
 import javax.inject.Inject;
 
 public class HomeActivity extends DemoBaseActivity {

@@ -16,8 +16,8 @@
  */
 package test;
 
-import dagger.Module;
-import dagger.Provides;
+import dagger1.Module;
+import dagger1.Provides;
 import javax.inject.Inject;
 
 class TestApp {

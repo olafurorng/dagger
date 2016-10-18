@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dagger.internal;
+package dagger1.internal;
 
 import org.junit.Before;
 import org.junit.Test;

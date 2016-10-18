@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.dagger.activitygraphs.ui;
+package com.example.dagger1.activitygraphs.ui;
 
 import android.app.Activity;
 

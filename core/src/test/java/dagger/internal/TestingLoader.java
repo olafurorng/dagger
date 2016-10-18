@@ -14,11 +14,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package dagger.internal;
+package dagger1.internal;
 
 
-import dagger.internal.loaders.ReflectiveAtInjectBinding;
-import dagger.internal.loaders.ReflectiveStaticInjection;
+import dagger1.internal.loaders.ReflectiveAtInjectBinding;
+import dagger1.internal.loaders.ReflectiveStaticInjection;
 
 /**
  * A test-only loader that merely uses reflection to test internals.
